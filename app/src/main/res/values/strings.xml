@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">TQN</string>
+    <string name="wallpaper_description">TQN</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">#TQN</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+    <string name="title_favourite">Favourite</string>
+    <string name="title_setting">Gift</string>
+    <string name="title_album">Albums</string>
+    <string name="title_home">Home</string>
+    <string name="title_notification">Notification</string>
+
+    <string name="errorMessage">An error occurred please try again later</string>
+    <string name="close">Close</string>
+    <string name="loading">Loading..</string>
+    <string name="connectionErrorMessage">Please chek your device connection</string>
+    <plurals name="views">
+        <item quantity="zero">No View</item>
+        <item quantity="one">1 View</item>
+        <item quantity="other">%d Views</item>
+    </plurals>
+    <string name="description">Description</string>
+
+    <string name="settings">Settings</string>
+    <string name="chooserTitle">Choose App</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedbackSubject">Flickr App Feedback</string>
+    <string name="about">About</string>
+    <string name="aboutText">This app had developed to show simple usage of Flick API by @gturedii.\n\nSource:\nhttps://github.com/gokhan-turedi/flickr-api-sample</string>
+    <string name="emptyText">No items available</string>
+    <string name="ok">ok</string>
+
+    <string-array name="quote">
+        <item>I need you like a heart needs a beat.</item>
+        <item>It was love at first sight, at last sight, at ever and ever sight.</item>
+        <item>Every love story is beautiful, but ours is my favorite.</item>
+        <item>The spaces between your fingers are meant to be filled with mine.</item>
+        <item>Loving you is one of the best decision in my life.</item>
+        <item>Walk with me through life…and I’ll have everything I’ll need for the journey.</item>
+        <item>I may not be your first date, kiss or love…but I want to be your last everything.</item>
+        <item>Come live in my heart and pay no rent.</item>
+        <item>Every time I see you, I fall in love all over again.</item>
+        <item>The first time you touched me, I knew I was born to be yours.</item>
+        <item>There are only two times that I want to be with you. Now and Forever.</item>
+        <item>Without his love I can do nothing, with his love, there is nothing I cannot do.</item>
+        <item>Without his love I can do nothing, with his love, there is nothing I cannot do.</item>
+        <item>The best feeling is when you look at him…and he is already staring.</item>
+        <item>To the world, you may be one person, but to me, you are the world.</item>
+        <item>I LOVE U to the MOOD and back</item>
+    </string-array>
+
+</resources>

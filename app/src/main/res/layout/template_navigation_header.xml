@@ -1,0 +1,54 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/navigation_bg"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:background="@color/colorAccent"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:paddingTop="@dimen/statusBarHeight"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avatar"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="@dimen/marginMedium"
+            android:src="@color/viewBg"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/email"
+            android:layout_marginBottom="@dimen/smallMedium"
+            android:layout_marginLeft="@dimen/marginMedium"
+            android:text="Quy Le"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText"
+            />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/marginMedium"
+            android:layout_marginLeft="@dimen/marginMedium"
+            android:text="quyltptit@gotitapp.co"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:ignore="HardcodedText"
+            />
+
+    </RelativeLayout>
+</FrameLayout>
